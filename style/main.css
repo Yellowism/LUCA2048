@@ -341,7 +341,7 @@ hr {
 
   .tile.tile-4 .tile-inner {
     background: #9DC3D7 url('../img/1.jpg');
-    background-size: cover;    
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     background: #9DC3D7 url('../img/2.jpg');
@@ -395,6 +395,14 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
+  .tile.tile-4096 .tile-inner {
+    background: #9DC3D7 url('../img/11.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.63492), inset 0 0 0 1px rgba(255, 255, 255, 0.38095);
+    font-size: 35px; }
+  @media screen and (max-width: 520px) {
+    .tile.tile-4096 .tile-inner {
+      font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
@@ -642,7 +650,7 @@ hr {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
         display: block; }
-  
+
   .grid-container {
     position: absolute;
     z-index: 1; }
@@ -754,7 +762,7 @@ hr {
     -moz-transform: translate(202px, 202px);
     -ms-transform: translate(202px, 202px);
     transform: translate(202px, 202px); }
-  
+
   .tile .tile-inner {
     font-size: 35px; }
   .tile.tile-2 .tile-inner {
@@ -764,7 +772,7 @@ hr {
 
   .tile.tile-4 .tile-inner {
     background: #9DC3D7 url('../img/1.jpg');
-    background-size: cover;    
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     background: #9DC3D7 url('../img/2.jpg');
@@ -818,6 +826,14 @@ hr {
     @media screen and (max-width: 480px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
+  .tile.tile-4096 .tile-inner {
+    background: #9DC3D7 url('../img/11.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.63492), inset 0 0 0 1px rgba(255, 255, 255, 0.38095);
+    font-size: 35px; }
+  @media screen and (max-width: 520px) {
+    .tile.tile-4096 .tile-inner {
+      font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
@@ -825,7 +841,7 @@ hr {
     @media screen and (max-width: 480px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
-    
+
   .game-message p {
     font-size: 30px !important;
     height: 30px !important;
